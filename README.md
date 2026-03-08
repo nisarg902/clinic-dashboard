@@ -1,70 +1,109 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🏥 Clinic Dashboard
 
-## Available Scripts
+A simple and responsive **Clinic Management Dashboard** built using React.js.
+This project helps manage clinic patients and display information in an organized dashboard interface.
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+* Register New Patients
+* View Patient List
+* Search Patients
+* Edit Patient Details
+* Delete Patient Records
+* Dashboard Statistics Cards
+* Loading Spinner for API calls
+* Responsive UI
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠 Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* React.js
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* Bootstrap
+* React Router
 
-### `npm test`
+## 📂 Project Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+clinic-dashboard
+│
+├── public
+│   └── index.html
+│
+├── src
+│   ├── pages
+│   │   ├── Patients.js
+│   │   ├── RegisterPatient.js
+│   │   └── LabTests.js
+│   │
+│   ├── components
+│   │   ├── Navbar.js
+│   │   ├── PatientTable.js
+│   │   └── DashboardCards.js
+│   │
+│   ├── App.js
+│   └── index.js
+│
+├── package.json
+└── README.md
+```
 
-### `npm run build`
+## ⚙️ Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone the repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+git clone https://github.com/your-username/clinic-dashboard.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Go to project folder
 
-### `npm run eject`
+```
+cd clinic-dashboard
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Install dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Run the project
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npm start
+```
 
-## Learn More
+The app will run at:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+http://localhost:3000
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🌐 Deployment
 
-### Code Splitting
+This project can be deployed easily using Vercel.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+After deployment your live project will look like:
 
-### Analyzing the Bundle Size
+```
+https://clinic-dashboard.vercel.app
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📌 Future Improvements
 
-### Making a Progressive Web App
+* Authentication system
+* Appointment booking
+* Medical history tracking
+* Backend database integration
+* Report generation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 👨‍💻 Author
 
-### Advanced Configuration
+**Nisarg Vishnu Wanve**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Frontend Developer
+Nagpur, Maharashtra
+GitHub: https://github.com/nisarg902
