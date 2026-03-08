@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Nisarg Wanve",
+    "phone": "9876543210",
+    "age": "21",
+    "gender": "Male"
+  },
+  {
+    "name": "Anjali Sharma",
+    "phone": "9123456789",
+    "age": "24",
+    "gender": "Female"
+  },
+  {
+    "name": "Rahul Verma",
+    "phone": "8877665544",
+    "age": "30",
+    "gender": "Male"
+  }
+]

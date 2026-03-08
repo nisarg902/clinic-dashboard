@@ -1,0 +1,14 @@
+[
+  {
+    "category": "Pathology (Blood Tests)",
+    "products": ["Complete Blood Count (CBC)", "Blood Sugar Test", "Lipid Profile", "Liver Function Test"]
+  },
+  {
+    "category": "Radiology (Scans)",
+    "products": ["X-Ray Chest", "Ultrasound Abdomen", "CT Scan", "MRI"]
+  },
+  {
+    "category": "General Checkup",
+    "products": ["Urine Analysis", "Thyroid Profile (T3 T4 TSH)", "ECG"]
+  }
+]
